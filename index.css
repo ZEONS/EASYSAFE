@@ -782,6 +782,17 @@ ol {
   color: var(--c-white);
 }
 
+.case-study.section {
+  background-image: url('./resource/sf_img.png');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.05); 
+  padding: 100px 0;
+  position: relative;
+}
+
 .case-study .section__label {
   background: rgba(0, 168, 107, 0.15);
   color: #6EE7B7;
@@ -792,7 +803,7 @@ ol {
 }
 
 .case-study .section__subtitle {
-  color: #94A3B8;
+  color: #FFFFFF;
 }
 
 .case-study__content {
@@ -854,7 +865,7 @@ ol {
 
 .case-study__point-text {
   font-size: var(--fs-small);
-  color: #CBD5E1;
+  color: #FFFFFF;
   line-height: 1.6;
 }
 
@@ -893,7 +904,7 @@ ol {
 
 .case-study__stat-desc {
   font-size: var(--fs-small);
-  color: #94A3B8;
+  color: #FFFFFF;
 }
 
 /* ── Target Audience Section ── */
